@@ -106,11 +106,7 @@ input:focus {
   border: 2px solid rgb(26, 107, 173);
   box-shadow: 2px 2px 5px rgba(21, 76, 121, 0.6);
 }
-input:invalid {
-  outline: none;
-  border: 2px solid rgb(173, 26, 26);
-  box-shadow: 2px 2px 5px rgba(121, 21, 21, 0.6);
-}
+
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -136,6 +132,9 @@ button {
 button:hover {
   background-color: #3e4c32;
   cursor: pointer;
+}
+button:active{
+  background-color: #6e914f;
 }
 #login {
   color: #596d48;
