@@ -1,0 +1,144 @@
+@font-face {
+  font-family: norsebold;
+  src: url(../sign-up-form/fonts/Norse-Bold.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.left-panel {
+  width: 80%;
+  height: 100vh;
+  background-image: url(images/olena-bohovyk-3BlVILvh9hM-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+#odin {
+  color: white;
+  font-family: norsebold;
+  font-size: 4rem;
+}
+#credits {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: relative;
+  bottom: -300px;
+}
+a {
+  color: white;
+}
+.right-panel {
+  display: flex;
+  flex-direction: column;
+}
+.head {
+  padding: 100px 40px 40px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+fieldset {
+  border: none;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+legend {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  padding: 10px 40px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.form-section {
+  display: flex;
+}
+.form-item {
+  width: 50%;
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(128, 128, 128);
+  max-width: fit-content;
+  padding: 0px 10px;
+  margin-bottom: -10px;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+}
+
+input {
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+input:focus {
+  outline: none;
+  border: 2px solid rgb(26, 107, 173);
+  box-shadow: 2px 2px 5px rgba(21, 76, 121, 0.6);
+}
+input:invalid {
+  outline: none;
+  border: 2px solid rgb(173, 26, 26);
+  box-shadow: 2px 2px 5px rgba(121, 21, 21, 0.6);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.button-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+button {
+  background-color: #596d48;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  border: none;
+  box-shadow: 3px 3px 5px #3e4c32;
+}
+button:hover {
+  background-color: #3e4c32;
+  cursor: pointer;
+}
+#login {
+  color: #596d48;
+  font-weight: bold;
+  text-decoration: none;
+}
